@@ -1,0 +1,15 @@
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.achievement-img {
+    width: calc(33.33% - 10px);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.achievement-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

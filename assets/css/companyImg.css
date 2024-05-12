@@ -1,0 +1,23 @@
+/* CSS styles for clickable photos */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Five columns */
+    grid-gap: 20px; /* Gap between photos */
+}
+
+.photo-grid img {
+    width: 200px; /* Make images fill their container */
+    height: 200px; /* Set a fixed height to maintain consistency */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Optional: Add styles for anchor tags */
+.photo-grid a {
+    display: block; /* Make anchor tags behave like blocks */
+}

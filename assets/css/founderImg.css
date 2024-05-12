@@ -1,0 +1,15 @@
+.founder-img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.founder-name {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    margin-top: 10px;
+}
